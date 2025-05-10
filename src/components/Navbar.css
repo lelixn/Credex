@@ -1,0 +1,45 @@
+/* Navbar.css */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+/* Dark Mode Styling */
+.dark nav {
+  background-color: #222;
+}
+
+.dark h1 {
+  color: #ddd;
+}
+
+.dark button {
+  background-color: #444;
+  color: #ddd;
+}
+
+.dark button:hover {
+  background-color: #555;
+}
